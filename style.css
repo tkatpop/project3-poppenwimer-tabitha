@@ -1,0 +1,168 @@
+/*
+Theme Name: Project 2 Shears Cosmetology School
+Theme URI:
+Author: Tabitha Poppenwimer
+Author URI: https://tpoppenwimer.com
+Description: Theme for Project 2 assignment for the company Shears Cosmetology School
+Version: 1.0.0
+License: GNU General Public License v2 or Later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+Text Domain: shears cosmetology school
+
+This is for educational purposes only
+*/
+
+/********************
+
+404
+
+*********************/
+.mainbox {
+background-color: #E59BDF;
+margin: auto;
+height: 600px;
+width: 600px;
+position: relative;
+}
+
+.err {
+    color: #222222;
+    font-size: 11rem;
+    position:absolute;
+    left: 20%;
+    top: 8%;
+    font-family: adlery-pro-blockletter,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#fas{
+position: absolute;
+font-size: 8.5rem;
+left: 42%;
+top: 15%;
+color: #222222;
+}
+
+.err2 {
+    color: #222222;
+    font-size: 11rem;
+    position:absolute;
+    left: 68%;
+    top: 8%;
+    font-family: adlery-pro-blockletter,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.msg {
+    text-align: center;
+    font-size: 1.6rem;
+    position:absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+}
+
+.link_404 {
+text-decoration: none;
+color: #222222;
+}
+
+.link_404:hover {
+text-decoration: underline;
+}
+
+/********************
+
+Custom CSS
+
+*********************/
+
+h1{
+    font-family: adlery-pro-blockletter,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+body{
+    font-family: sweet-sans-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/********************
+
+Header
+
+*********************/
+
+header{
+    background-color: #5e2b83;
+    color: #FAF7FB;
+}
+
+.logo{
+    padding: 10px;
+}
+
+/*****NAV***********/
+
+.custom-menu-class a{
+    text-decoration: none;
+}
+
+.custom-menu-class li{
+    list-style: none;
+}
+
+#menu-main-menu li{
+    display: inline;
+}
+/********************
+
+Footer
+
+*********************/
+Footer{
+    background-color: #5e2b83;
+    color: #FAF7FB;
+}
+
+.footer-menu li{
+    list-style: none;
+    display: inline;
+}
+
+.footer-menu a{
+    color:#FAF7FB;
+    text-decoration: none;
+}
+
+/********************
+
+Form
+
+*********************/
+
+#wpforms-submit-103{
+    background: #5e2b83;
+    color: #FAF7FB;
+}
+
+#wpforms-form-103 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wpforms-field-row{
+    max-width: 100% !important;
+}
+
+/********************
+
+Media Queries
+
+*********************/
