@@ -4,22 +4,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <?php  
-                            if(has_nav_menu('footer-left')){ ?>
-                                <nav class="footer-menu">
-                                        <?php
-                                            wp_nav_menu(array(
-                                                'theme_location'    => 'footer-left',
-                                            ));
-                                        ?>
-                                </nav>
-                                <?php
-                            }
-
-                        ?>
-
+                        <?php dynamic_sidebar('left-footer-widget'); ?>
                     </div>
-
+                    
                     <div class="col-md-4">
                         <?php  
                             if(has_nav_menu('footer-middle')){ ?>
@@ -37,22 +24,15 @@
                     </div>
 
                     <div class="col-md-4">
-                        <?php  
-                            if(has_nav_menu('footer-right')){ ?>
-                                <nav class="footer-menu">
-                                        <?php
-                                            wp_nav_menu(array(
-                                                'theme_location'    => 'footer-right',
-                                            ));
-                                        ?>
-                                </nav>
-                                <?php
-                            }
-
-                        ?>
+                        <?php dynamic_sidebar('right-footer-widget'); ?>
                     </div>
+                    
                 </div>
             </div>
+
+            <p class="copyright">&#169;Shears Cosmetology School, 2022</p>
+
+        
         </footer>
         <?php wp_footer(); ?>
     </body>

@@ -17,6 +17,10 @@ This is for educational purposes only
 404
 
 *********************/
+.page_404{
+    background-color: #E59BDF;
+}
+
 .mainbox {
 background-color: #E59BDF;
 margin: auto;
@@ -65,12 +69,13 @@ color: #222222;
 }
 
 .link_404 {
-text-decoration: none;
-color: #222222;
+    text-decoration: none;
+    color: #222222;
 }
 
 .link_404:hover {
-text-decoration: underline;
+    color:#222222;
+    text-decoration: underline;
 }
 
 /********************
@@ -93,6 +98,11 @@ body{
     font-style: normal;
 }
 
+/* .page .text-container{
+    max-width: 800px;
+    margin: 0 auto;
+} */
+
 /********************
 
 Header
@@ -102,11 +112,9 @@ Header
 header{
     background-color: #5e2b83;
     color: #FAF7FB;
+    padding: 15px;
 }
 
-.logo{
-    padding: 10px;
-}
 
 /*****NAV***********/
 
@@ -126,7 +134,7 @@ header{
 Footer
 
 *********************/
-Footer{
+footer{
     background-color: #5e2b83;
     color: #FAF7FB;
 }
@@ -140,6 +148,27 @@ Footer{
     color:#FAF7FB;
     text-decoration: none;
 }
+
+.copyright{
+    text-align: center;
+    font-size: .8rem;
+    padding: 10px;
+}
+
+/********************
+
+Widget
+
+*********************/
+.left-footer-widget-container{
+    padding: 5px;
+}
+
+.left-footer-widget-container a{
+    color:#FAF7FB;
+    text-decoration: none;
+}
+
 
 /********************
 
@@ -163,6 +192,23 @@ Form
 
 /********************
 
+HomePage
+
+*********************/
+
+.wp-block-cover p,
+.wp-block-cover h2{
+    text-shadow: 2px 2px #222222 !important;
+}
+
+/********************
+
 Media Queries
 
 *********************/
+
+/* @media only screen and (min-width: 320px) and (max-width: 768px){
+    .page-id-38{
+        text-align: center;
+    }
+} */

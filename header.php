@@ -18,32 +18,34 @@
     <body>
         <header>
             <div class="container">
-
-                <div class="navigation">
-                        <nav class="custom-menu-class">
+                <div class="row">
+                    <div class="col-lg-6 logo-container">
                             <?php
-                                wp_nav_menu(array(
-                                    'theme_location'    => 'main-menu',
-                                ));
+                                //Display Logo Image if set
+                                if(get_header_image() == ''){
+                                    ?>
+                                    <h1><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+                                    <?php
+                                }else{
+                                    ?>
+                                    <a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Company Logo"/></a>
+                                    <?php
+                                }
                             ?>
-                        </nav>
+
+                    </div>
+                    
+                    <div class="col-lg-6 navigation">
+                            <nav class="custom-menu-class">
+                                <?php
+                                    wp_nav_menu(array(
+                                        'theme_location'    => 'main-menu',
+                                    ));
+                                ?>
+                            </nav>
+                    </div>
+                    
+  
                 </div>
-                
-                <div class="logo-container">
-                    <?php
-                        //Display Logo Image if set
-                        if(get_header_image() == ''){
-                            ?>
-                            <h1><a href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-                            <?php
-                        }else{
-                            ?>
-                            <a href="<?php echo get_home_url(); ?>"><img class="logo" src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Company Logo"/></a>
-                            <?php
-                        }
-                    ?>
-
-                </div>  
-                
             </div>    
         </header>  
