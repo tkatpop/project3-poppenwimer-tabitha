@@ -98,10 +98,15 @@ body{
     font-style: normal;
 }
 
-/* .page .text-container{
-    max-width: 800px;
-    margin: 0 auto;
-} */
+h3 a{
+    text-decoration: none;
+    color:#222222;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+    color:#5e2b83;
+}
 
 /********************
 
@@ -155,6 +160,11 @@ footer{
     padding: 10px;
 }
 
+footer hr{
+    border:5px solid #FAF7FB;
+
+}
+
 /********************
 
 Widget
@@ -167,6 +177,22 @@ Widget
 .left-footer-widget-container a{
     color:#FAF7FB;
     text-decoration: none;
+}
+
+.right-footer-widget-container{
+    padding: 5px;
+}
+
+/********************
+
+Search
+
+*********************/
+
+#searchsubmit{
+    background-color: #FAF7FB;
+    color:#5e2b83;
+    box-shadow: 2px 2px #222222;
 }
 
 
@@ -199,6 +225,31 @@ HomePage
 .wp-block-cover p,
 .wp-block-cover h2{
     text-shadow: 2px 2px #222222 !important;
+}
+
+/********************
+
+Contact 
+
+*********************/
+
+.has-text-align-right a{
+    text-decoration: none;
+    color:#222222;
+}
+
+.has-text-align-right a:hover {
+    text-decoration: underline;
+    color:#5e2b83;
+}
+
+/********************
+
+Images
+
+*********************/
+.wp-image-45{
+    border:#E59BDF 5px solid;
 }
 
 /********************

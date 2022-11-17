@@ -3,7 +3,7 @@
 <div class="container">
     <main class="row">
         <section class="col-lg-12">
-            <h2 class="search-title">Search Results for "<?php echo $s; ?>"</h2>
+            <h1 class="search-title">Search Results for: "<?php echo $s; ?>"</h1>
 
             <?php
                 if(have_posts()){
