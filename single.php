@@ -5,6 +5,7 @@
                 while(have_posts()){
                     the_post(); ?>
 
+                    <!--Program/post content-->
                     <div class="individual-post">
                         <div class="text-container">
                             <h1><?php the_title(); ?></h1>

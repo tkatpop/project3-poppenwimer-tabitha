@@ -1,6 +1,8 @@
 <?php get_header(); ?>
  <main class="container">
     <section class="archive-container">
+
+        <!--Archive Categories-->
         <h1 class="archive-title">
             <?php 
                 if(is_category()){
@@ -12,7 +14,8 @@
                 }
             ?>    
         </h1>
-
+        
+        <!--Archive Search Results-->
         <?php
             if(have_posts()){
                 while(have_posts()){

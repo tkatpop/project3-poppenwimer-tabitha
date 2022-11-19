@@ -65,6 +65,16 @@
             'before_title'  => '<h2>',
             'after_title'   => '</h2>'
         ));
+
+        register_sidebar(array(
+            'name'          => ('Tour Widget'),
+            'id'            => 'tour-widget',
+            'description'   => 'Area in the request tour page for content',
+            'before_widget' => '<div class="tour-form-widget-container"',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h2>',
+            'after_title'   => '</h2>'
+        ));
     }
 
     add_action('widgets_init', 'blank_widgets_init');

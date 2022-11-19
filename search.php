@@ -5,6 +5,7 @@
         <section class="col-lg-12">
             <h1 class="search-title">Search Results for: "<?php echo $s; ?>"</h1>
 
+            <!--Search Results-->
             <?php
                 if(have_posts()){
                     while(have_posts()){
@@ -15,7 +16,7 @@
                             <p><?php the_excerpt(); ?></p>
                         </article>
                         
-                   <?php }//end while
+                   <?php }
                 }else{ ?>
                     <div class="col-lg-12">
                         <?php

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <main class="container">
 
-
+        <!--Single Page Content-->
         <div class="single-page">
             <div class="text-container">
                 <h1><?php the_title(); ?></h1>

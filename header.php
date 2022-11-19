@@ -35,6 +35,7 @@
 
                     </div>
                     
+                    <!--Main Navigation-->
                     <div class="col-lg-6 navigation">
                             <nav class="custom-menu-class">
                                 <?php
