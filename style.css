@@ -108,6 +108,13 @@ h3 a:hover {
     color:#5e2b83;
 }
 
+.wp-element-button:hover{
+    color:#222222 !important;
+    background-color: #E59BDF !important;
+    
+}
+
+
 /********************
 
 Header
@@ -121,7 +128,11 @@ header{
 }
 
 
-/*****NAV***********/
+/********************
+
+Navigation Menu
+
+*********************/
 
 .custom-menu-class a{
     text-decoration: none;
@@ -129,11 +140,14 @@ header{
 
 .custom-menu-class li{
     list-style: none;
-}
-
-#menu-main-menu li{
     display: inline;
 }
+
+.logo-container,
+.navigation{
+    width: 50%;
+}
+
 /********************
 
 Footer
@@ -165,6 +179,11 @@ footer hr{
 
 }
 
+
+footer a:hover{
+    color: #E59BDF;
+    text-decoration: underline;
+}
 
 
 /********************
@@ -272,6 +291,7 @@ HomePage
 
 .wp-block-cover p,
 .wp-block-cover h2{
+    color:#FAF7FB;
     text-shadow: 2px 2px #222222 !important;
 }
 
@@ -299,4 +319,32 @@ Contact Image
 .wp-image-45{
     border:#E59BDF 5px solid;
 }
+
+
+/********************
+
+Media Queries
+
+*********************/
+
+@media screen and (max-width: 768px){
+    main{
+        width: 100%;
+    }
+
+    .is-layout-flow.wp-block-column,
+    .has-text-align-right{ 
+        text-align: center;
+    }
+
+    .wp-image-45 img{
+        max-width: 80%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+}
+
 

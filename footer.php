@@ -31,6 +31,8 @@
                     <!--Right Footer Widget Area- Social Media and Search Function-->       
                     <div class="col-md-4">
                         <?php dynamic_sidebar('right-footer-widget'); ?>
+
+                        <!--Search Form-->
                         <?php get_search_form(); ?>
                     </div>
                     
