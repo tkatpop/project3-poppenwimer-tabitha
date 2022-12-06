@@ -146,6 +146,11 @@ Navigation Menu
 .logo-container,
 .navigation{
     width: 50%;
+    line-height: 20px;
+}
+
+#mega-menu-wrap-main-menu{
+    margin: 5% auto;
 }
 
 /********************
@@ -328,7 +333,7 @@ Media Queries
 *********************/
 
 @media screen and (max-width: 768px){
-    main{
+    main.container{
         width: 100%;
     }
 
@@ -337,7 +342,7 @@ Media Queries
         text-align: center;
     }
 
-    .wp-image-45 img{
+    .wp-block-image .wp-image-45{
         max-width: 80%;
     }
 
